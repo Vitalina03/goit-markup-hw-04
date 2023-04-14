@@ -365,6 +365,7 @@ img {
   align-items: center;
 
   border-radius: 50%;
+  background-color: var(--iris);
 }
 
 .customers-company {
@@ -379,6 +380,7 @@ img {
   align-items: center;
   border-radius: 4px;
   border: 1px solid var(--light-slate);
+  color: var(--color-link);
 }
 
 .customer-icon-link:hover,
@@ -546,14 +548,13 @@ img {
   display: flex;
   gap: 16px;
 }
-
+.social-media-list,
 .footer-icon {
   width: 40px;
   height: 40px;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
-  background-color: var(--iris);
 }
 .footer-icon-link {
   height: 100%;
@@ -561,8 +562,8 @@ img {
   display: flex;
   justify-content: center;
   align-items: center;
-
   border-radius: 50%;
+  background-color: var(--iris);
 }
 
 .footer-icon-link:hover,
